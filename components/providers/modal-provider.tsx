@@ -6,6 +6,7 @@ import { MembersModal } from "@/components/modals/members-modal";
 import { EditServerModal } from "@/components/modals/edit-server-modal";
 import { EditChannelModel } from "@/components/modals/edit-channel-modal";
 import { LeaveServerModal } from "@/components/modals/leave-server-modal";
+import { MessageFileModal } from "@/components/modals/message-file-modal";
 import { DeleteServerModal } from "@/components/modals/delete-server-modal";
 import { CreateServerModal } from "@/components/modals/create-server-modal";
 import { DeleteChannelModal } from "@/components/modals/delete-channel-modal";
@@ -33,6 +34,7 @@ export const ModalProvider = () => {
             <DeleteServerModal />
             <DeleteChannelModal />
             <EditChannelModel />
+            <MessageFileModal />
         </>
     )
 }
